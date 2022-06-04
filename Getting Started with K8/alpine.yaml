@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alpine-pod
+  labels:
+    created-by: sen
+    pod-base: alpine
+spec:
+  containers:
+    - name: alpine
+      image: alpine

@@ -1,0 +1,21 @@
+To create a pod using a image from docker hub
+
+    kubectl run nginx --image nginx
+
+To view the running pods
+
+    kubectl get pods
+
+To get more details about a pod
+
+    kubectl describe pod podname
+
+    Ex - kubectl describe pod nginx
+
+To get detailed information about the pods
+
+    kubectl get pods -o wide
+
+To create a pod using yaml file
+
+    kubectl apply -f yaml_file
